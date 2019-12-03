@@ -12,7 +12,7 @@ const TodoForm = props => {
 
   return (
     <div onClick={handleClick} className={className}>
-      <p>{props.item.name}</p>
+      <p>{props.item.task}</p>
     </div>
   );
 };

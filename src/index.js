@@ -4,32 +4,32 @@ import App from "./App"
 
 const data = [
     {
-      name: "Clean Room",
+      task: "Clean Room",
       id: 1,
       completed: false
     },
     {
-      name: "Buy Groceries",
+      task: "Buy Groceries",
       id: 2,
       completed: false
     },
     {
-      name: "Wash Car",
+      task: "Wash Car",
       id: 3,
       completed: false
     },
     {
-      name: "Go For A Walk",
+      task: "Go For A Walk",
       id: 4,
       completed: false
     },
     {
-      name: "Study",
+      task: "Study",
       id: 5,
       completed: false
     },
     {
-      name: "Call Parents",
+      task: "Call Parents",
       id: 6,
       completed: false
     }
