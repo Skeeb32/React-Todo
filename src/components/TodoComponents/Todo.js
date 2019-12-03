@@ -1,11 +1,11 @@
 import React from "react";
-import Item from "./TodoForm";
+import TodoForm from "./TodoForm";
 
 const Todo = props => {
     return (
         <div className="todo-list">
           {props.todo.map(item => (
-            <Item
+            <TodoForm
               key={item.id}
               item={item}
               toggleCompleted={props.toggleCompleted}
