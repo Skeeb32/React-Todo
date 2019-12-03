@@ -8,10 +8,15 @@ body {
 }
 
 body {
-  background-color:rgb(185, 25, 248);
+  /* background-color:rgb(185, 25, 248); */
+  background-image: url('../TodoComponents/note2.jpg');
+  background-size: cover;
+  
 }
 
-h1,
+h1 {
+  background-color: #ffb6b5;
+}
 h2,
 h3,
 h4,
@@ -20,7 +25,7 @@ h6,
 div,
 p,
 span {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -31,6 +36,8 @@ span {
   max-width: 665px;
   margin: 0 auto;
   border: 2px solid black;
+  border-radius: 5%;
+  margin-top: 25%;
 }
 
 .header {
@@ -50,7 +57,7 @@ justify-content: center;
 text-align: center;
 }
 .item {
-  background-color: darkgrey;
+  background-color: rgb(131, 216, 231);
   width: 32%;
   display: flex;
   justify-items: center;
@@ -96,4 +103,5 @@ input::placeholder {
 
 .clear-btn {
   margin-top: 16px;
+  margin-bottom: 16px;
 }
